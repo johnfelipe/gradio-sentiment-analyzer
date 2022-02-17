@@ -8,4 +8,4 @@ app_file: app.py
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces#reference
+Check out the model https://huggingface.co/spaces/MohamedSherif/gradio-sentiment-analyzer
