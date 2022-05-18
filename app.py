@@ -12,6 +12,6 @@ def sentiment_analysis(text):
 
 #interface
 interface=gr.Interface(sentiment_analysis,
-                       gr.inputs.Textbox(lines=7,placeholder="Enter your text here..."),
-                       outputs=["text"],title="Sentiment Analysis")
-interface.launch(share=True)
+                       gr.inputs.Textbox(lines=7,placeholder="Escriba su texto aqui..."),
+                       outputs=["text"],title="Analizador simple de sentimientos de un texto")
+interface.launch(server_name="0.0.0.0")
